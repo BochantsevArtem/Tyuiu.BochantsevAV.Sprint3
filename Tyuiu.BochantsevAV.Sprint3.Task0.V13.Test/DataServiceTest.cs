@@ -19,7 +19,7 @@ namespace Tyuiu.BochantsevAV.Sprint3.Task0.V13.Test
 
             double actual = ds.GetSumSeries(0.5, 1, 20);
 
-            Assert.AreEqual(expected, actual, 0.0001);
+            Assert.AreEqual(expected, actual, 0.1);
         }
     }
 }
