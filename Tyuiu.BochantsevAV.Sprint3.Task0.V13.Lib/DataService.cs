@@ -14,8 +14,7 @@ namespace Tyuiu.BochantsevAV.Sprint3.Task0.V13.Lib
                 sum += (Math.Pow(value, k) + 0.5) * Math.Cos(k);
             }
 
-            return sum;
-
+            return Math.Round(sum, 3);
         }
     }
 }
