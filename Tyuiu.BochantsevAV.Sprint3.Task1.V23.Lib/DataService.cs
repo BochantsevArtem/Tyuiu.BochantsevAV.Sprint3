@@ -18,7 +18,7 @@ namespace Tyuiu.BochantsevAV.Sprint3.Task1.V23.Lib
                 k++;
             }
 
-            return result;
+            return Math.Round(result, 3);
         }
     }
 }

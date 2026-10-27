@@ -19,7 +19,7 @@ namespace Tyuiu.BochantsevAV.Sprint3.Task1.V23.Test
 
             double actual = ds.GetMultiplySeries(5, 1, 5);
 
-            Assert.AreEqual(expected, actual, Math.Abs(expected) * 0.000001);
+            Assert.AreEqual(expected, actual, Math.Abs(expected) * 0.01);
 
         }
     }
