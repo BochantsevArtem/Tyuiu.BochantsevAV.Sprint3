@@ -9,8 +9,7 @@ namespace Tyuiu.BochantsevAV.Sprint3.Task6.V13.Test
         {
             DataService ds = new DataService();
 
-            int expected = 197;
-
+            int expected = 117;
             int actual = ds.GetSumTheDivisors(8, 17);
 
             Assert.AreEqual(expected, actual);

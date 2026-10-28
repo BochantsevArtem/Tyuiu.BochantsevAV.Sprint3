@@ -10,19 +10,12 @@ namespace Tyuiu.BochantsevAV.Sprint3.Task6.V13.Lib
 
             for (int number = startValue; number <= stopValue; number++)
             {
-                int sum = 0;
-
                 for (int divisor = 1; divisor <= number; divisor++)
                 {
-                    if (number % divisor == 0)
+                    if (number % divisor == 0 && divisor > 8)
                     {
-                        sum += divisor;
+                        result += divisor;
                     }
-                }
-
-                if (sum > 8)
-                {
-                    result += sum;
                 }
             }
 

@@ -12,11 +12,9 @@ namespace Tyuiu.BochantsevAV.Sprint3.Task5.V21.Lib
             {
                 for (int k = startValue2; k <= stopValue2; k++)
                 {
-                    sum += Math.Pow(x, 3) * Math.Cos(k);
+                    sum += Math.Pow(x, 3) * Math.Cos(k) + 2;
                 }
             }
-
-            sum += 2;
 
             return Math.Round(sum, 3);
         }
